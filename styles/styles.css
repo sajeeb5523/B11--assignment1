@@ -16,7 +16,16 @@
 
 button:hover {
     background-color: #e606e6;
+    transition: 2s;
     cursor: pointer;
+}
+
+.coder1{
+    margin-bottom: 80px;
+}
+
+.heading3{
+    margin-bottom: 24px;
 }
 
 /* nav styles */
@@ -26,6 +35,7 @@ nav{
     justify-content: space-between;
     margin-left: 160px;
     margin-right: 160px;
+    margin-bottom: 24px;
 }
 
 .nav_title{
@@ -33,6 +43,48 @@ nav{
     font-weight: 700;
     margin-top: 31px;
 }
+
+/* banner styels */
+.banner{
+    display: flex;
+    border-radius: 24px;
+    gap: 64px;
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.banner_content{
+    max-width: 570px;
+    border-radius: 24px;
+    margin-left: 60px;
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.banner_content h5{
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+    background-color: rgba(198, 228, 214, 1);
+    margin-top: 100px;
+    
+}
+
+.banner_content p{
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.banner_content button{
+    margin-bottom: 117px;
+}
+
+.banner img{
+    background-color: rgba(198, 228, 214, 1);
+    margin: 80px 0 80px 0;
+}
+
 
 /* skills styles */
 .margin_lr{
@@ -57,7 +109,7 @@ nav{
     border-radius: 16px;
     background-color: #FFFFFF;
     border: 1px solid #D5D6D8;
-    stroke: rgba(14, 14, 14, 0.15);
+    box-shadow: rgba(14, 14, 14, 0.15);
 }
 
 .skill_title{
@@ -76,9 +128,6 @@ nav{
 }
 
 
-.heading3{
-    margin-bottom: 24px;
-}
 
 .paragraph1{
     font-size: 16px;
@@ -197,8 +246,7 @@ nav{
     height: 41px;
 }
 
-
-
+/* review styles */
 .margin_t{
     margin-top: 80px;
 }
@@ -212,8 +260,10 @@ nav{
 .maindiv{
     display: flex;
     gap: 32px;
-    background-color: #FFFFFF;
+    padding-top: 48px;
+    box-shadow: 0px 6px 25px 0px rgba(14, 14, 14, 0.15);
     margin-bottom: 24px;
+    border-radius: 24px;
 }
 
 .img{
@@ -284,22 +334,19 @@ nav{
     color: rgba(14, 14, 14, 0.80);
 }
 
-.box_title4:hover{
-    background-color: red;
-}
-
 .taka_input{
     justify-content: space-around;
     width: 1064px;
     height: 64px;
     border: none;
+    margin: 0 auto;
     text-align: center;
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 32px;
     background-color: #fff;
     font-weight: normal;
-    display: block
+    display: block;
 }
 
 .btn_center{
@@ -316,12 +363,14 @@ nav{
 }
 
 .bottom{
-    margin-bottom: 24px;
+    height: 48px;
+    width: 662px;
+    margin: 0 auto;
     background-color: rgba(198, 228, 214, 1.00);
 }
 
 .color{
-    background-color: rgba(198, 228, 214, 1.00); 
+    background-color: rgba(198, 228, 214, 1.00);
 }
 input[type="email"] {
     width: 45%;
@@ -331,25 +380,14 @@ input[type="email"] {
     border-radius: 10px 0 0 10px;
 }
 
-.btn3{
-    color: white;
-    background-color: rgba(0, 106, 80, 1.00);
-    border: none;
-    width: 150px;
-    height: 53px;
-    border-radius: 0 10px 10px 0;
-    font-weight: 600;
-    font-size: 18px;
-    padding: 17px 34px;
-    margin-left: -5px;
-}
-
 .email_div{
     display: flex;
     justify-content: center;
+    margin-top: 24px;
 }
 
 
+/* button styles */
 .btn1{
     padding: 15px 30px; 
     margin-top: 24px;
@@ -371,6 +409,18 @@ input[type="email"] {
     padding: 13px 26px;
 }
 
+.btn3{
+    color: white;
+    background-color: rgba(0, 106, 80, 1.00);
+    border: none;
+    width: 150px;
+    height: 53px;
+    border-radius: 0 10px 10px 0;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 17px 34px;
+    margin-left: -5px;
+}
 
 .time{
     display: inline;
@@ -405,7 +455,3 @@ footer h3{
     font-size: 32px;
     font-weight: 700;
 }
-
-
-
-
