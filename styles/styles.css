@@ -297,8 +297,11 @@ nav{
 .donate_box{
     display: flex;
     gap: 24px;
-    text-align: center;
-    justify-content: space-evenly;
+    height: 128px;
+    margin: 0 auto;
+    width: 1071px;
+    align-items: center;
+    justify-content: space-around;
     margin-bottom: 32px;
 }
 
