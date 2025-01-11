@@ -13,11 +13,11 @@
 .margin_b{
     margin-bottom: 80px;
 }
+
 button:hover {
     background-color: #e606e6;
     cursor: pointer;
 }
-
 
 /* nav styles */
 nav{
@@ -100,16 +100,25 @@ nav{
     border-radius: 16px;
     background-color:  rgba(84, 144, 245, 0.20);
 }
+.visions1 img{
+    background-color:  rgba(198, 228, 214, 1.00);
+}
 
 .visions2{
     padding: 24px 32px;
     border-radius: 16px;
-    background-color:  rgba(198, 228, 214, 1.00)
+    background-color:  rgba(198, 228, 214, 1.00);
+}
+.visions2 img{
+    background-color:  rgba(198, 228, 214, 1.00);
 }
 
 .visions3{
     padding: 24px 32px;
     border-radius: 16px;
+    background-color: rgba(247, 235, 207, 1.00);
+}
+.visions3 img{
     background-color: rgba(247, 235, 207, 1.00);
 }
 
@@ -235,6 +244,50 @@ nav{
     
 }
 
+.donate_box{
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+}
+
+.box_title1{
+    font-weight: 700;
+    font-size: 40px;
+    background-color: #FFFFFF;
+    padding: 24px 24px 12px 0;
+    color: rgba(14, 14, 14, 0.80);
+}
+
+.box_title2{
+    font-weight: 700;
+    font-size: 40px;
+    background-color: #FFFFFF;
+    padding: 24px 24px 12px 0; 
+    color: rgba(14, 14, 14, 0.80);
+}
+
+.box_title3{
+    font-weight: 700;
+    font-size: 40px;
+    background-color: #FFFFFF;
+    padding: 24px 24px 12px 0; 
+    color: rgba(14, 14, 14, 0.80);
+}
+
+.box_title4{
+    font-weight: 700;
+    font-size: 40px;
+    background-color: #FFFFFF;
+    padding: 24px 24px 12px 0; 
+    color: rgba(14, 14, 14, 0.80);
+}
+
+.box_title4:hover{
+    background-color: red;
+}
+
 .taka_input{
     justify-content: space-around;
     width: 1064px;
@@ -352,4 +405,7 @@ footer h3{
     font-size: 32px;
     font-weight: 700;
 }
+
+
+
 
