@@ -1,0 +1,246 @@
+*{
+    font-family: Fira Sans;
+    margin: 0;
+    background-color: #F5F5F5;
+} 
+
+/* shared styles */
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.nav_title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 31px;
+}
+
+/* skills styles */
+.margin_lr{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.heading2{
+    margin-bottom: 32px;
+}
+
+.skills_contianer{
+    display: flex;
+    gap: 24px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+}
+
+.skills{
+    padding: 24px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #D5D6D8;
+    stroke: rgba(14, 14, 14, 0.15);
+}
+
+.skill_title{
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    padding: 24px 24px 12px 0; 
+    color: rgba(14, 14, 14, 0.80);
+}
+
+.skill_description{
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    color: rgba(14, 14, 14, 0.70);
+}
+
+
+.heading3{
+    margin-bottom: 24px;
+}
+
+.paragraph1{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.70);
+    margin-bottom: 32px;
+}
+
+/* vision styles */
+.visions_container{
+    display: flex;
+    gap: 24px;
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.visions1{
+    padding: 24px 32px;
+    border-radius: 16px;
+    background-color:  rgba(84, 144, 245, 0.20);
+}
+
+.visions2{
+    padding: 24px 32px;
+    border-radius: 16px;
+    background-color:  rgba(198, 228, 214, 1.00)
+}
+
+.visions3{
+    padding: 24px 32px;
+    border-radius: 16px;
+    background-color: rgba(247, 235, 207, 1.00);
+}
+
+.visions_title1{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 24px 24px 12px 0;
+    background-color:  rgba(84, 144, 245, 0.02);
+}
+
+.visions_title2{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 24px 24px 12px 0;
+    background-color:  rgba(198, 228, 214, 1.00)
+}
+
+.visions_title3{
+    font-weight: 700;
+    font-size: 20px;
+    padding: 24px 24px 12px 0;
+    background-color: rgba(247, 235, 207, 1.00);
+}
+
+.visions_description1{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+    background-color:  rgba(84, 144, 245, 0.02);
+}
+
+.visions_description2{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+    background-color:  rgba(198, 228, 214, 1.00)
+}
+
+.visions_description3{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+    background-color: rgba(247, 235, 207, 1.00);
+}
+
+.margin_t{
+    margin-top: 80px;
+}
+
+.h4_headings{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(14, 14, 14, 0.80);
+}
+
+.maindiv{
+    display: flex;
+    gap: 32px;
+    background-color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.img{
+    display: block;
+    margin: 12px 0 12px 0;
+}
+
+.para{
+    margin-top: 12px;
+}
+
+.left{
+    padding: 0 0 48px 48px;
+}
+
+.right{
+    padding: 0 48px 48px 0;
+}
+
+.center{
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.donate_paragraph{
+    padding: 0 88px 0 88px;
+    text-align: center;
+    
+}
+
+.taka_input{
+    justify-content: space-around;
+    width: 1064px;
+    height: 64px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    background-color: #fff;
+    font-weight: normal;
+    display: block
+}
+
+.btn_center{
+    text-align: center;
+}
+
+
+
+
+
+
+.btn1{
+    padding: 15px 30px;
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border-color: #006A50;
+    color: #006A50;
+    border-color: #006A50;
+}
+
+.btn2{
+    color: white;
+    background-color: rgba(0, 106, 80, 1.00);
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 13px 26px;
+}
+
+
+.time{
+    display: inline;
+    margin-right: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.70);
+}
